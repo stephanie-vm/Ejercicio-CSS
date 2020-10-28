@@ -1,0 +1,28 @@
+//@import "partials/variables";
+
+/*HEADER*/
+.nav_ul {
+    display: inline-flex;
+    margin: 50px; }
+.nav_ul li {
+    list-style: $nada;
+    margin: 0 20px;
+    cursor: pointer; }
+.nav_ul a {
+    text-decoration: $nada;
+    color: $colorTexto; }
+.login {
+    top: 40px;
+    right: 80px;
+    position: $posicion;
+    text-decoration: $nada;
+    color: $colorTexto;
+    border: 2px solid transparent; 
+    border-radius: 5px;
+    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box; 
+}
+.login span {
+    display: block;
+    padding: 8px 22px; }

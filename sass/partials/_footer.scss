@@ -1,0 +1,23 @@
+/*FOOTER*/
+.FOOTER {
+    left: 0;
+    bottom: -800px;
+    position: $posicion; }
+    
+.footer_white {
+    display: inline-flex;
+    margin: 30px auto;
+    text-align: center; }
+.footer_white  li {
+    list-style: none;
+    margin: 0 70px;
+    cursor: pointer; }
+
+.footer_white  a {
+    margin-top: 15px;
+    text-decoration: $nada;
+    font-size: 10px;
+    color:$colorTexto ; }
+
+
+
